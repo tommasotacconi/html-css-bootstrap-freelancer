@@ -56,7 +56,7 @@ section {
   width: 100%;
 } */
 
-/* ul {
+ul {
   list-style-type: none;
   
   a {
@@ -69,7 +69,7 @@ section {
       margin-right: 0;
   }
   
-} */
+}
 
 /* Utilities */
 /* .container {

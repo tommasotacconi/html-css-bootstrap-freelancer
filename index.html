@@ -21,8 +21,15 @@
     <header class="bdcolor-cielo">
       <div class="container dashed-border h-100 d-flex align-items-center">
         <div class="row flex-grow-1 row-cols-2 align-items-center">
-          <div class="col">Titolo</div>
-          <div class="col text-end">Burger menu</div>
+          <div class="col side-content left">Titolo</div>
+          <div class="col side-content right text-end">
+            <span class="d-md-none">Burger menu</span>
+            <ul class="mb-0 d-flex d-none d-md-flex">
+              <li class="flex-grow-1"><a href="">elemen. lista</a></li>
+              <li class="flex-grow-1"><a href="">elemen. lista</a></li>
+              <li class="flex-grow-1"><a href="">elemen. lista</a></li>
+            </ul> 
+          </div>
         </div>
       </div>
     </header>
@@ -48,7 +55,7 @@
           <span class="d-inline-block mb-4">elemento di separazione</span>
     
           <!-- row di card -->
-          <div class="row row-cols-1">
+          <div class="row row-cols-1 row-cols-md-2">
             <div class="col dashed-border-alternative">
               <div class="card h-100">contenuto card</div>
             </div>
@@ -78,10 +85,10 @@
   
           <!-- paragrafi di larghezza 8/12 -->
           <div class="row justify-content-center mb-5 text-start">
-            <div class="col-8 ps-0 dashed-border-alternative">
+            <div class="col-8 ps-0 col-md-4 dashed-border-alternative">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aspernatur earum consequatur recusandae eligendi iusto quisquam labore quod aut quidem assumenda unde possimus. Deleniti excepturi mollitia magni dolores, fugit quibusdam?</p>
             </div>
-            <div class="col-8 ps-0 dashed-border-alternative">
+            <div class="col-8 ps-0 col-md-4 dashed-border-alternative">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, officiis atque ullam unde harum ad est, nobis sed saepe exercitationem delectus velit similique eligendi natus, earum nemo! Dolore, sequi velit?</p>
             </div>
           </div>
@@ -97,7 +104,7 @@
             <span>elemento separatore</span>
           </div>
   
-          <!-- campi di larghezza 8/12 -->
+          <!-- campi di larghezza 8/12 in modalità smartphone-->
           <div class="row justify-content-center">
             <div class="col-8 py-2 dashed-border-alternative">
               <div class="name-box">Testo box</div>
