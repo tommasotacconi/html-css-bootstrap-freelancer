@@ -26,10 +26,14 @@ header {
   min-height: var(--mh-xxl);
 }
 
-footer {
-  /* padding: 30px;
-  color: white; */
+section {
+  min-height: var(--mh-xxl)
 }
+
+/* footer {
+  padding: 30px;
+  color: white;
+} */
 
 /* nav {
   line-height: 30px;
@@ -66,13 +70,18 @@ footer {
 } */
 
 /* Utilities */
-.container {
+/* .container {
   
-}
+} */
 
 /* in jumbotrone */
 #jumbotrone figure {
   width: 40%;
   background-color: aquamarine;
   margin: 0 auto;
+}
+
+/* in portfolio */
+#portfolio .col {
+  min-height: var(--mh-lg);
 }

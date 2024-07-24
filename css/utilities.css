@@ -63,11 +63,11 @@
 
 /* type of border */
 .dashed-border{
-  border: 3px dashed orange
+  border: 4px dashed orange
 }
 
 .dashed-border-alternative {
-  border: 1px dashed hotpink;
+  border: 2px dashed hotpink;
 }
 
 .separator-div {
