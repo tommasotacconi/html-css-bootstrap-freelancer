@@ -19,6 +19,7 @@ header {
     color: white;
     font-weight: 600;
     font-size: 12px; */
+    height: var(--mh-sm);
 }
 
 footer {
@@ -61,3 +62,6 @@ footer {
 } */
 
 /* Utilities */
+.container {
+    
+}
