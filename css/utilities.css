@@ -46,9 +46,9 @@
 .children-txt-align-center {
   text-align: center;
 }
-
+/* 
 /* type of container */
-/* .container-lg {
+.container-lg {
   max-width: 900px;
   margin: 0 auto;
   min-height: var(--mh-xl);
@@ -76,9 +76,9 @@
   margin: 20px 0;
 }
 
-/* type of button */
+/* type of button
 /* (squared) */
-/* .btn {
+.btn {
   font-size: 16px;
   padding: 7px 12px;
   border: 0;
@@ -136,8 +136,8 @@
   border: 1px solid lightgray;
 }
 
-/* display class */
-/* .d-none {
+/* display class
+.d-none {
   display: none;
 }
 
@@ -148,10 +148,10 @@
 /* flex configuration */
 .d-flex {
   display: flex;
-} */
+}
 
 /* assegna display:flex ai figli diretti */
-/* .children-d-flex- > * {
+.children-d-flex- > * {
   display: flex;
 }
 
