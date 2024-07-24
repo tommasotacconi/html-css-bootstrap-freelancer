@@ -24,12 +24,12 @@ header {
 
 #jumbotrone {
   min-height: var(--mh-md);
-  padding: var(--sec-pd-md);
+  padding: var(--sec-pd-md) 0;
 }
 
 section {
   min-height: var(--mh-xxl);
-  padding: var(--sec-pd-md)
+  padding: var(--sec-pd-md) 0;
 }
 
 /* footer {
