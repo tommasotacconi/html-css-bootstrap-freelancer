@@ -23,11 +23,13 @@ header {
 }
 
 #jumbotrone {
-  min-height: var(--mh-xxl);
+  min-height: var(--mh-md);
+  padding: var(--sec-pd-md);
 }
 
 section {
-  min-height: var(--mh-xxl)
+  min-height: var(--mh-xxl);
+  padding: var(--sec-pd-md)
 }
 
 /* footer {
