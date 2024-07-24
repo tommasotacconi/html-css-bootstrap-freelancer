@@ -87,3 +87,8 @@ section {
 #portfolio .col {
   min-height: var(--mh-lg);
 }
+
+/* in contact-me  */
+#contact-me .message-box {
+  height: 100px;
+}
