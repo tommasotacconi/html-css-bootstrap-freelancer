@@ -17,8 +17,8 @@
   background-color: #383a41;
 }
 
-.snav-bdc {
-  background-color: #000;
+.jumbo-bgc {
+  background-color: #79ffe0;
 }
 
 .main-bdc {
@@ -99,6 +99,27 @@ ul {
 /* .container {
   
 } */
+ .separator-span {
+  position: relative;
+ }
+
+.separator-span::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 30px; 
+  width: 100px;
+  border-top: 2px solid #fff;
+}
+
+.separator-span::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -115px; 
+  width: 100px;
+  border-top: 2px solid #fff;
+}
 
 /* in header */
 header .side-content.right .tt-btn {
