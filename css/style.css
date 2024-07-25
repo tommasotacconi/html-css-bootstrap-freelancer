@@ -136,13 +136,13 @@ header .side-content.right .tt-btn {
 
 /* in jumbotrone */
 #jumbotrone figure {
-  width: 300px;
+  width: 250px;
   margin: 0 auto;
 }
 
 /* in portfolio */
 #portfolio .col {
-  min-height: 350px;
+  min-height: 275px;
 
   .card {
     height: 100%;
@@ -151,7 +151,7 @@ header .side-content.right .tt-btn {
 
 #portfolio {
   .col .card{    
-    background-size: cover;
+    background-size: 400px;
     background-position: center;
     border: none;
   }
