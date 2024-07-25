@@ -5,18 +5,42 @@
   box-sizing: border-box;
 }
 
+/* base value */
+:root{
+    /*obscured effect  */
+    --obs: #949494;
+    --inv: 0.6;  
+}
+
+/* background-color */
+.hdr-bgc {
+  background-color: #383a41;
+}
+
+.snav-bdc {
+  background-color: #000;
+}
+
+.main-bdc {
+  background-color: #1a1725
+}
+
+.main-header-bdc {
+  background-color: #00000095;
+}
+
 /* Generics */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
+  color: white;
   /* position: fixed;
   left: 0px;
   top: 0px;
   z-index: 1;
   width: 100%; 
-  color: white;
   font-weight: 600;
   font-size: 12px; */
   height: var(--mh-sm);
@@ -75,6 +99,15 @@ ul {
 /* .container {
   
 } */
+
+/* in header */
+header .side-content.right .tt-btn {
+  color: var(--obs);
+  font-size: 1.5rem;
+  padding: 1px 4px;
+  background-color: transparent;
+  border-color: #fff;
+}
 
 /* in jumbotrone */
 #jumbotrone figure {
