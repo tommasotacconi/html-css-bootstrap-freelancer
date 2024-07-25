@@ -34,25 +34,26 @@
 }
 
 /* alignment */
-.txt-alcenter {
+.txt-alc {
   text-align: center;
 }
 
-.txt-alright{
+.txt-alr {
   text-align: right;
 }
-
+ 
 /* assegna text-align center ai figli */
 .children-txt-align-center {
   text-align: center;
 }
-/* 
+
+
 /* type of container */
-.container-lg {
+/* .container-lg {
   max-width: 900px;
   margin: 0 auto;
   min-height: var(--mh-xl);
-  /* border: 3px dashed burlywood; */
+  border: 3px dashed burlywood;
 }
 
 .container-xl {
@@ -61,9 +62,10 @@
   min-height: var(--mh-xxl)
 } */
 
+
 /* type of border */
 .dashed-border{
-  border: 4px dashed orange
+  border: 4px dashed orange;
 }
 
 .dashed-border-alternative {
@@ -76,9 +78,10 @@
   margin: 20px 0;
 }
 
-/* type of button
+
+/* type of button */
 /* (squared) */
-.btn {
+/* .btn {
   font-size: 16px;
   padding: 7px 12px;
   border: 0;
@@ -105,10 +108,10 @@
   padding: 15px 21px;
   border-radius: 25px;
   cursor: pointer;
-}
+} */
 
 /* (round) */
-.btn-rd {
+/* .btn-rd {
   font-size: 0.9rem;
   color: white;
   padding: 7px 12px;
@@ -119,12 +122,13 @@
 
 .btn-rd-hov:hover {
   font-size: 1rem;
-  /* background-color: #3b7cff; */
+  background-color: #3b7cff;
   border: 2px solid whitesmoke;
   border-radius: 30px;
   padding: 8px 14px;
   cursor: pointer;
-} */
+}
+ */
 
 /* anchor style */
 .a-blue {
@@ -136,40 +140,40 @@
   border: 1px solid lightgray;
 }
 
-/* display class
-.d-none {
+/* display class */
+/* .d-none {
   display: none;
 }
 
 .d-block {
   display: block;
-}
+} */
 
 /* flex configuration */
-.d-flex {
+/* .d-flex {
   display: flex;
-}
+} */
 
-/* assegna display:flex ai figli diretti */
-.children-d-flex- > * {
+/* assegna display: flex ai figli diretti */
+/* .children-d-flex- > * {
   display: flex;
 }
 
 .flex-row-align-center {
   display: flex;
   align-items: center;
-  /* gap: var(--space); */
+  gap: var(--space);
 }
 
 .flex-row-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: var(--space); */
-}
+  gap: var(--space);
+} */
 
 /* centra il contenuto dei propri figli */
-.child-flex-row-center > * {
+/* .child-flex-row-center > * {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,10 +182,10 @@
 .flex-row-spb {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* da ai propri figli flex-row-space-between */
-.children-flex-row-space-between > * {
+/* .children-flex-row-space-between > * {
   display: flex;
   justify-content: space-between;
 }
