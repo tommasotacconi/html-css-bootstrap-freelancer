@@ -21,11 +21,15 @@
   background-color: #79ffe0;
 }
 
-.main-bdc {
-  background-color: #1a1725
+.section-bgc-white {
+  background-color: #fff;
 }
 
-.main-header-bdc {
+.section-bgc-azure {
+  background-color: #79ffe0;
+}
+
+.footer-bdc-top {
   background-color: #00000095;
 }
 
@@ -142,6 +146,10 @@ header .side-content.right .tt-btn {
   min-height: var(--mh-lg);
 }
 
+#portfolio .separator-span::before,
+#portfolio .separator-span::after {
+  border-color: #000;
+}
 /* in contact-me  */
 #contact-me .message-box {
   height: 100px;
