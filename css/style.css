@@ -136,14 +136,49 @@ header .side-content.right .tt-btn {
 
 /* in jumbotrone */
 #jumbotrone figure {
-  width: 40%;
-  background-color: aquamarine;
+  width: 300px;
   margin: 0 auto;
 }
 
 /* in portfolio */
 #portfolio .col {
-  min-height: var(--mh-lg);
+  min-height: 350px;
+
+  .card {
+    height: 100%;
+  }
+}
+
+#portfolio {
+  .col .card{    
+    background-size: cover;
+    background-position: center;
+    border: none;
+  }
+
+  .col:first-child .card {
+    background-image: url('../img/cabin.png');
+  }
+
+  .col:nth-child(2) .card {
+    background-image: url('../img/cake.png');
+  }
+
+  .col:nth-child(3) .card {
+    background-image: url('../img/circus.png');
+  }
+
+  .col:nth-child(4) .card {
+    background-image: url('../img/game.png');
+  }
+
+  .col:nth-child(5) .card {
+    background-image: url('../img/safe.png');
+  }
+
+  .col:nth-child(6) .card {
+    background-image: url('../img/submarine.png');
+  }
 }
 
 #portfolio .separator-span::before,
