@@ -119,33 +119,33 @@
         </div>
       </section>
   
-      <section id="contact-me" class="bdcolor-cioccolato">
-        <div class="container dashed-border">
+      <section id="contact-me" class="">
+        <div class="container">
           <div class="title-box text-center">          
-            <h2 class="fw-semibold">Titolo sezione</h2>
-            <span>elemento separatore</span>
-          </div>
+            <h2 class="fw-semibold">Contact me</h2>
+            <span class="separator-span d-inline-block mb-3">
+              <i class="bi bi-star-fill"></i>
+            </span>
+            </div>
   
           <!-- campi di larghezza 8/12 in modalità smartphone-->
           <div class="row justify-content-center">
-            <div class="col-8 py-2 dashed-border-alternative">
-              <div class="name-box">Testo box</div>
-            </div>
-            <div class="col-8 py-2 dashed-border-alternative">
-              <div class="email-box">Testo box</div>
-            </div>
-            <div class="col-8 py-2 dashed-border-alternative">
-              <div class="phone-num-box">Testo box</div>
-            </div>
-            <div class="col-8 py-2 dashed-border-alternative">
-              <div class="message-box">Testo box</div>
-            </div>
-          </div>
-  
-          <!-- row per allineamento bottone -->
-          <div class="row justify-content-center">
-            <div class="col-8 ps-0 pt-1">
-              <button class="">Testo di button</button>
+            <div class="col-8 py-2">
+                <form action="">
+                  <div class="mb-3">
+                    <input type="email" class="form-control ps-0" id="name" placeholder="Name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control ps-0" id="email" placeholder="Email address">
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" class="form-control ps-0" id="phone" placeholder="Phone number">
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control ps-0" id="message" rows="3" placeholder="Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn border-0 btn-success btn-bgc-aqua">Send</button>
+                </form>
             </div>
           </div>
         </div>
