@@ -29,8 +29,8 @@
   background-color: #69d9bf;
 }
 
-.footer-bdc-top {
-  background-color: #00000095;
+.footer-bgc-top {
+  background-color: #45474f;
 }
 
 /* Generics */
@@ -60,10 +60,9 @@ section {
   padding: var(--sec-pd-md) 0;
 }
 
-/* footer {
-  padding: 30px;
-  color: white;
-} */
+footer {
+  padding: 30px 0 0;
+}
 
 /* nav {
   line-height: 30px;
@@ -90,7 +89,6 @@ ul {
   a {
       text-decoration: none;
       color: white;
-      margin-right: 5px;
   }
 
   li:last-child {
@@ -132,6 +130,10 @@ header .side-content.right .tt-btn {
   padding: 1px 4px;
   background-color: transparent;
   border-color: #fff;
+}
+
+header li:not(:last-child) a {
+  margin-right: 5px
 }
 
 /* in jumbotrone */
@@ -185,7 +187,33 @@ header .side-content.right .tt-btn {
 #portfolio .separator-span::after {
   border-color: #000;
 }
+
 /* in contact-me  */
 #contact-me .message-box {
   height: 100px;
 }
+
+/* in footer */
+.copyright-writing {
+  min-height: 50px;
+}
+
+footer .row {
+  margin-bottom: 30px;
+}
+
+.social li {
+  border-color: #fff;
+  border-style: solid;
+  display: block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 25px;
+  /* filter: drop-shadow(0 7px 7px #a0a0a0ee); */
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+footer .about-freel
