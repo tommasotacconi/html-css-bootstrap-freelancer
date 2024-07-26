@@ -56,7 +56,7 @@ header {
 }
 
 section {
-  min-height: var(--mh-xxl);
+  min-height: var(--mh-xl);
   padding: var(--sec-pd-md) 0;
 }
 
@@ -216,4 +216,6 @@ footer .row {
   margin: 10px 5px;
 }
 
-footer .about-freel
+footer .about-freel span {
+  color: #69d9bf;
+}
